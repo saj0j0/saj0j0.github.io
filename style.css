@@ -12,6 +12,7 @@ body{
 
 .s1{
     height: 100vh;
+    width: auto;
     background: #ffffff;
     box-sizing: border-box;
 }
@@ -40,14 +41,20 @@ body{
     box-sizing: border-box;
 }
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* S1 CONTENT */
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(final.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(images/final.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 .navbar{
@@ -73,11 +80,13 @@ body{
     position: absolute;
 }
 
+
 .logo a{
     color: #ffffff;
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
+
 
 .logo a:hover{
     color: #EDD4B6;
@@ -91,7 +100,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 
@@ -101,6 +109,7 @@ ul{
     align-items: center;
     justify-content: center;
 } 
+
 
 ul li{
    list-style: none;
@@ -123,17 +132,19 @@ ul li a:hover{
 
 
 .quote{
-    position: absolute;
+    position: relative;
     width: 317px;
     height: 66.51px;
-    left: 1060px;
+    left: 1080px;
     top: 360px;
     color: #ffffff;
 }
 
+
 .quote h1{
     font-size: 45px;
 }
+
 
 .quote a{
     font-size: 20px;
@@ -146,10 +157,38 @@ ul li a:hover{
     transition: 0.3s ease-in-out;
 }
 
+
 .quote a:hover{
     color: #EDD4B6;
 }
 
+/* S2 CONTENT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 600px){
+    .main{
+        background: url();
+    }
+} */
 
 
 
