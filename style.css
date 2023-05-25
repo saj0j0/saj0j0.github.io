@@ -11,8 +11,7 @@ body{
 /* SECTION BACKGROUND */
 
 .s1{
-    height: 100vh;
-    width: auto;
+    
     background: #ffffff;
     box-sizing: border-box;
 }
@@ -25,7 +24,7 @@ body{
 
 .s3{
     height: 100vh;
-    background: #172633;
+    background: #ffffff;
     box-sizing: border-box;
 }
 
@@ -73,11 +72,11 @@ body{
 
 
 .logo{
-    font-size: 28px;
-    padding-left: 40px;
-    float: left;
-    padding-top: 20px;
     position: absolute;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 2%;
+    
 }
 
 
@@ -95,7 +94,7 @@ body{
 
 .menu{
     position: relative;
-    width: 180px;
+    width: 55px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -110,14 +109,13 @@ ul{
     justify-content: center;
 } 
 
-
 ul li{
+    font-weight: lighter;
    list-style: none;
-   margin: 15px;
-   margin-top: 20px;
-   font-size: 20px; 
+   margin: 8px;
+   margin-top: 0px;
+   font-size: 19px; 
 }
-
 
 ul li a{
     text-decoration: none;
@@ -125,38 +123,33 @@ ul li a{
     transition: 0.3s ease-in-out;
 }
 
-
 ul li a:hover{
     color: #EDD4B6;
 }
 
-
 .quote{
     position: relative;
-    width: 317px;
-    height: 66.51px;
-    left: 1080px;
-    top: 360px;
     color: #ffffff;
+    margin-left: 58%;
+    margin-top: 25%;
+    text-align: center;
 }
-
 
 .quote h1{
-    font-size: 45px;
+    font-size: 40px;
 }
 
+.quote h2{
+    margin-top: -2%;
+}
 
 .quote a{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: left;
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s ease-in-out;
 }
-
 
 .quote a:hover{
     color: #EDD4B6;
@@ -164,10 +157,138 @@ ul li a:hover{
 
 /* S2 CONTENT */
 
+.konten2{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 img{
+    margin: 10px;
+}
+
+.head2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.head2 h1{
+    margin-top: 2%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.head2 h2{
+    color: #EDD4B6;
+    font-size: medium;
+    position: absolute;
+    top: 112%;
+    font-style: normal;
+    font-variant: all-small-caps;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.logofederi{
+    position: absolute;
+    width: 88px;
+    height: 85px;
+    top: 123%;
+    left: 46%;
+}
+
+.bottom2{
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+}
+
+#letter1{
+    margin-left: 15%;
+    font-weight: 700;
+} 
+
+#letter2{
+    margin-left: 6.5%;
+    font-weight: 700;
+}
+
+.highlight1{
+    color: #EDD4B6;
+}
+
+.highlight2{
+    color: #EDD4B6;
+}
+
+.footer2{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 4.5%;
+    right: 14.5%;
+    text-align: right;
+    position: absolute;
+}
+
+
+.here {
+    background-color: #172633;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .here:hover {
+    background-color:#EDD4B6 ;
+    color: #0D151C;
+  }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .quote{
+    position: relative;
+    color: #ffffff;
+    margin-left: 58%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.quote h1{
+    font-size: 40px;
+}
+
+.quote h2{
+    margin-top: -2%;
+} */
 
 
 
