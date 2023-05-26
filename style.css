@@ -103,7 +103,7 @@ ul li a:hover{
     position: relative;
     color: #ffffff;
     margin-left: 58%;
-    margin-top: 25%;
+    margin-top: 26%;
     text-align: center;
 }
 
@@ -143,6 +143,10 @@ ul li a:hover{
     border-radius: 5%;
 }
 
+.isi2{
+    position: relative;
+    top: 10%; 
+}
 
 .head2{
     color: #ffffff;
@@ -167,13 +171,13 @@ ul li a:hover{
     font-size: 28px;
 }
 
-.logofederi{
+/* .logofederi{
     position: absolute;
     width: 88px;
     height: 85px;
     top: 123%;
     left: 46%;
-}
+} */
 
 .bottom2{
     color: #ffffff;
@@ -193,8 +197,7 @@ ul li a:hover{
 .footer2{
     color: #ffffff;
     font-size: 20px;
-    margin-top: 6%;
-    /* right: 14.5%; */
+    padding-top: 2%;
     text-align: center;
 }
 
@@ -223,59 +226,45 @@ ul li a:hover{
   .txt3{
     color: #ffffff;
     position: relative;
-    top: 23%;
+    top: 25%;
     left: 51.5%;
   }
 
   .txt3 h1{
+    margin-bottom: 0.5%;
     font-weight: lighter;
+    font-size: xx-large;
   }
 
   .para3 p{
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .quote3{
-    font-size: 16px;
+    font-size: 18px;
     color: #EDD4B6;
     margin: 2%;
+    text-align: left;
   }
 
   .footer3{
-    font-size: 16px;
+    font-size: 18px;
   }
 
-  .konten3{
-    position: relative;
-    top: -46.5%;
-    z-index: 3;
-    left: 25%;
-    transform: translate(-25%,0%);
-  }
 
-  .bg3{
-    position: relative;
-    top: -31.5%;
-    z-index: 3;
-    left: 25%;
-    transform: translate(-25%,0%);
-  }
-
-  .icon3{
-    position: relative;
-    top: -31.5%;
-    z-index: 3;
-    left: -6%;
-    transform: translate(-1%,0%);
+.bg3{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 4.7%;
   }
 
   .name3{
     color: #ffffff;
-    position: relative;
-    top: -43.5%;
-    z-index: 3;
-    left: 26%;
-    transform: translate(-1%,0%);
+    font-size: large;
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 14%;
+    /* align-items: center; */
   }
 
   .sname3{
@@ -286,7 +275,6 @@ ul li a:hover{
   .check1{
     color: #EDD4B6;
     text-decoration: underline;
-    cursor: grab;
   }
 
   .check2{
@@ -294,7 +282,7 @@ ul li a:hover{
     text-decoration: underline;
   }
 
-
+  
 
 
 
