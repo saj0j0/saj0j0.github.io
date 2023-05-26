@@ -32,7 +32,7 @@ html{
 
 #s3{
     height: 100vh;
-    background: #ffffff;
+    background: #0D151C;
     box-sizing: border-box;
 }
 
@@ -74,9 +74,6 @@ html{
     left: 50%;
     transform: translate(-50%,0%);
 }
-
-
-
 
 
 ul{
@@ -195,9 +192,9 @@ ul li a:hover{
 
 .footer2{
     color: #ffffff;
-    font-size: 25px;
-    margin-top: 4.5%;
-    right: 14.5%;
+    font-size: 20px;
+    margin-top: 6%;
+    /* right: 14.5%; */
     text-align: center;
 }
 
@@ -221,7 +218,81 @@ ul li a:hover{
 
 
 
+  /* S3 CONTENT */
 
+  .txt3{
+    color: #ffffff;
+    position: relative;
+    top: 23%;
+    left: 51.5%;
+  }
+
+  .txt3 h1{
+    font-weight: lighter;
+  }
+
+  .para3 p{
+    font-size: 16px;
+  }
+
+  .quote3{
+    font-size: 16px;
+    color: #EDD4B6;
+    margin: 2%;
+  }
+
+  .footer3{
+    font-size: 16px;
+  }
+
+  .konten3{
+    position: relative;
+    top: -46.5%;
+    z-index: 3;
+    left: 25%;
+    transform: translate(-25%,0%);
+  }
+
+  .bg3{
+    position: relative;
+    top: -31.5%;
+    z-index: 3;
+    left: 25%;
+    transform: translate(-25%,0%);
+  }
+
+  .icon3{
+    position: relative;
+    top: -31.5%;
+    z-index: 3;
+    left: -6%;
+    transform: translate(-1%,0%);
+  }
+
+  .name3{
+    color: #ffffff;
+    position: relative;
+    top: -43.5%;
+    z-index: 3;
+    left: 26%;
+    transform: translate(-1%,0%);
+  }
+
+  .sname3{
+    color: #EDD4B6;
+    font-weight: bolder;
+  }
+  
+  .check1{
+    color: #EDD4B6;
+    text-decoration: underline;
+    cursor: grab;
+  }
+
+  .check2{
+    color:#EDD4B6 ;
+    text-decoration: underline;
+  }
 
 
 
