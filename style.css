@@ -64,18 +64,15 @@ html{
 }
 
 
-.navbar{
-    position: fixed;
-    left: 36%;
-    top: 2%;
-}
-
 .menu{
     background-color: #bdbdbd41;
     padding: 5px 20px;
     border-radius: 20px;
-    z-index: 4;
-    
+    position: fixed;
+    top: 2%;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 
 
@@ -137,10 +134,8 @@ ul li a:hover{
 
 /* S2 CONTENT */
 
-
-
 .konten2{
-    margin-top: 8%;
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,17 +146,13 @@ ul li a:hover{
     border-radius: 5%;
 }
 
+
 .head2{
     color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .head2 h1{
-    position: relative;
-    margin-top: 2%;
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
@@ -171,11 +162,8 @@ ul li a:hover{
 }
 
 .head2 h2{
-    position: relative;
     color: #EDD4B6;
     font-size: medium;
-    position: absolute;
-    top: 112%;
     font-style: normal;
     font-variant: all-small-caps;
     font-weight: 600;
@@ -194,20 +182,7 @@ ul li a:hover{
     color: #ffffff;
     font-size: 35px;
     margin-top: 2%;
-    display: flex;
     text-align: center;
-}
-
-#letter1{
-    position: relative;
-    margin-left: 15%;
-    font-weight: 700;
-} 
-
-#letter2{
-    position: relative;
-    margin-left: 6.5%;
-    font-weight: 700;
 }
 
 .highlight1{
@@ -223,8 +198,7 @@ ul li a:hover{
     font-size: 25px;
     margin-top: 4.5%;
     right: 14.5%;
-    text-align: right;
-    position: absolute;
+    text-align: center;
 }
 
 
