@@ -66,6 +66,7 @@ html{
 
 .menu{
     background-color: #bdbdbd41;
+    backdrop-filter: blur(20px);
     padding: 5px 20px;
     border-radius: 20px;
     position: fixed;
@@ -154,21 +155,23 @@ ul li a:hover{
 }
 
 .head2 h1{
+    color: #EDD4B6;
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
     line-height: 78px;
-    text-align: center;
     font-variant: small-caps;
+    letter-spacing: 5px;
 }
 
 .head2 h2{
-    color: #EDD4B6;
+    color: #ffff;
     font-size: medium;
     font-style: normal;
     font-variant: all-small-caps;
     font-weight: 600;
     font-size: 28px;
+    letter-spacing: 15px;
 }
 
 /* .logofederi{
