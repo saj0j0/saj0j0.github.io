@@ -57,7 +57,7 @@
 
 
 
-    <section id="s3" class="s3container">
+    <section id="s3" class="s3 container">
                     <img class="bg3" src="images/icon.png" height="510px" width="340px">
                         <div class="txt3 ">
                             <h1>Hi. I'm <strong>Jojo</strong></h1>
@@ -86,13 +86,23 @@
 
 
 
-    <section id="s4" class="s4container">
-        <h1>sibaisdjaisjd></h1> 
-    </section>
+    <section id="s4" class="s4 container">
+        <div class="leftkonten">
+            <h1>Let's get <br>in touch!</h1>
+        </div>
+            <div class="rightkonten">
+                <form>
+                    <label for="nama"></label><br>
+                    <input type="text" id="boxname" pattern="^[a-zA-Z\s'-]{1,100}$" required placeholder="Name" title="Isikan dengan huruf!"><br>
+                    
+                    <label for="email"></label><br>
+                    <input type="emai" id="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+[.]+[a-zA-Z]{2,10}$" placeholder="Email" title="Isikan sesuai format!"><br>
 
-    <section id="s5" class="s5container">
-        <h1>sibaisdjaisjd></h1>
-            
+                    <label for="message"></label><br>
+                    <textarea class ="message" pattern="[a-z0-9_-]{3,15}$" required placeholder="Write here..."></textarea><br>
+                    <button class="btsend" type="submit">SEND</button>
+                </form>
+            </div>
     </section>
 </body>
 </html>

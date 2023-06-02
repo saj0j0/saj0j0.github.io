@@ -30,6 +30,8 @@ html{
     box-sizing: border-box;
 }
 
+
+
 #s3{
     height: 100vh;
     background: #0D151C;
@@ -217,7 +219,7 @@ ul li a:hover{
     transition: 0.3s ease-in-out;
   }
   
-  .here:hover {
+.here:hover {
     background-color:#EDD4B6 ;
     color: #0D151C;
   }
@@ -226,31 +228,31 @@ ul li a:hover{
 
   /* S3 CONTENT */
 
-  .txt3{
+.txt3{
     color: #ffffff;
     position: relative;
     top: 25%;
     left: 51.5%;
   }
 
-  .txt3 h1{
+.txt3 h1{
     margin-bottom: 0.5%;
     font-weight: lighter;
     font-size: xx-large;
   }
 
-  .para3 p{
+.para3 p{
     font-size: 18px;
   }
 
-  .quote3{
+.quote3{
     font-size: 18px;
     color: #EDD4B6;
     margin: 2%;
     text-align: left;
   }
 
-  .footer3{
+.footer3{
     font-size: 18px;
   }
 
@@ -261,7 +263,7 @@ ul li a:hover{
     padding-top: 4.7%;
   }
 
-  .name3{
+.name3{
     color: #ffffff;
     font-size: large;
     position: absolute;
@@ -270,28 +272,84 @@ ul li a:hover{
     /* align-items: center; */
   }
 
-  .sname3{
+.sname3{
     color: #EDD4B6;
     font-weight: bolder;
   }
   
-  .check1{
+.check1{
     color: #EDD4B6;
     text-decoration: underline;
   }
 
-  .check2{
+.check2{
     color:#EDD4B6 ;
     text-decoration: underline;
   }
 
   
 
+   /* S4 CONTENT */
 
 
+.leftkonten{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 60px;
+    position: relative;
+    left: 8%;
+    top: -15%;
+}
 
+.leftkonten h1{
+    font-weight: bolder;
+}
 
+.message{
+    height: 250px;
+    width: 500px;
+}
 
+.rightkonten{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+input{
+    border-radius: 10px;
+    background: #FFFFFF;
+    height: 50px;
+    width: 500px;
+    margin: -0.5%;
+}
+
+textarea{
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-top: 1%;
+}
+
+.btsend{
+    position: relative;
+    left: 26.5%;
+    margin-top: 0.5%;
+    background-color: #172633;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btsend:hover {
+    background-color:#EDD4B6 ;
+    color: #0D151C;
+  }
 
 
 
