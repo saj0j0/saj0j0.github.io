@@ -40,12 +40,6 @@ html{
 
 #s4{
     height: 100vh;
-    background: #0D151C;
-    box-sizing: border-box;
-}
-
-#s5{
-    height: 100vh;
     background: #000000;
     box-sizing: border-box;
 }
@@ -298,14 +292,14 @@ ul li a:hover{
     font-size: 60px;
     position: relative;
     left: 8%;
-    top: -15%;
+    top: -17%;
 }
 
 .leftkonten h1{
     font-weight: bolder;
 }
 
-.message{
+.messagetx{
     height: 250px;
     width: 500px;
 }
@@ -333,9 +327,11 @@ textarea{
 
 .btsend{
     position: relative;
-    left: 26.5%;
-    margin-top: 0.5%;
-    background-color: #172633;
+    /* left: 26.5%; */
+    left: 95%;
+    transform: translate(-95%,0%);
+    margin-top: 1%;
+    background-color:  #0D151C;
     color: #ffffff;
     padding: 5px 20px;
     border: 2px solid #ffffff;
@@ -351,7 +347,39 @@ textarea{
     color: #0D151C;
   }
 
+.boxname::placeholder{
+    position: relative;
+    left: 2%;
+    top: 2%;
+    font-size: 15px;
+}
 
+.emailtx::placeholder{
+    position: relative;
+    left: 2%;
+    top: 2%;
+    font-size: 15px;
+}
+
+.messagetx::placeholder {
+    position: relative;
+    left: 2%;
+    top: 2%;
+    font-size: 16px;
+}
+
+.konten4{
+    position: absolute;
+    left: 18%;
+    top: 360%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.konten4 img{
+    margin: 20%;
+}
 
 
 
