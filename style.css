@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -44,14 +45,7 @@ html{
     box-sizing: border-box;
 }
 
-.container{
-    widows: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border: 1px solid red;
-}
+
 
 /* S1 CONTENT */
 
@@ -131,9 +125,16 @@ ul li a:hover{
 .konten2{
     margin-top: 2%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
+
+.konten2 a{
+    color: #EDD4B6;
+    background-color: #EDD4B6;
+}
+
 
 #s2 img{
     margin: 10px;
@@ -253,17 +254,16 @@ ul li a:hover{
 
 .bg3{
     position: absolute;
-    padding-left: 10%;
-    padding-top: 4.7%;
+    left: 15%;
+    margin-top: 6.5%;
   }
 
 .name3{
     color: #ffffff;
     font-size: large;
     position: absolute;
-    padding-left: 15%;
-    padding-top: 14%;
-    /* align-items: center; */
+    margin-top: 1%;
+    left: -31.5%;
   }
 
 .sname3{
@@ -292,7 +292,7 @@ ul li a:hover{
     font-size: 60px;
     position: relative;
     left: 8%;
-    top: -17%;
+    top: -15%;
 }
 
 .leftkonten h1{
@@ -370,36 +370,93 @@ textarea{
 
 .konten4{
     position: absolute;
-    left: 18%;
-    top: 360%;
-    display: flex;
+    left: 9%;
+    margin-top: -5%;
+}
+
+.konten4 i{
+    /* position: absolute;
+    left: 17%;
+    top: 346%; */
+    height: 45px;
+    width: 45px;
+    background-color: #9e9e9e83;
+    color: #FFFFFF;
+    font-size: 28px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
 }
 
-.konten4 img{
-    margin: 20%;
+.konten4 i:hover{
+    color: #9e9e9e83;
+    background-color: #FFFFFF;
 }
 
 
-
-/* XS */
-  @media (min-width: 475px) {}
-
-/* S */
-  @media (min-width: 640px) {}
-
-/* M */
-  @media (min-width: 768px) {}
-
-/* L */
-  @media (min-width: 1024px) {}
-
-/* XL */
-  @media (min-width: 1280px) {}
+.container{
+    max-width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid red;
+}
 
 /* XXL */
-  @media (min-width: 1536px) {}
+  @media (ax-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+  }
+
+/* XL */
+  @media (ax-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
+  }
+
+/* L */
+  @media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+  }
+
+/* M */
+  @media (max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+  }
+
+/* S */
+  @media (max-width: 640px) {
+    .container{
+        max-width: 475px;
+    }
+  }
+
+/* XS */
+  @media (max-width: 475px) {
+    .container{
+        max-width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
