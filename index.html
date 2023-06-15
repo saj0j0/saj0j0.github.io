@@ -8,6 +8,7 @@
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="images/Logo Jo3 (1).png">
     <title>Jonathan Feoderick</title>
 </head>
 <body>
@@ -21,10 +22,10 @@
                         </ul>
                 </div>
             
-            <!-- <div class="quote">
-                <h1>Less is more.</h1>
-                <h2><a href=https://thearchinsider.com/mies-van-der-rohe-the-father-of-minimalism target="_blank">Ludwig Mies van der Rohe</a></h2>
-            </div> -->
+            <div class="quote">
+                <h1><a href=https://www.youtube.com/watch?v=0NpcFGcqen8 target="_blank">I love football.</a></h1>
+                <h2>Jonathan Feoderick</a></h2>
+            </div>
     </section>
 
        
@@ -58,8 +59,12 @@
 
 
     <section id="s3" class="s3 container">
+                <div class="abicon">
                      <img class="bg3" src="images/icon.png" height="510px" width="340px">
-                          
+                </div> 
+                <div class="name3">
+                     <p>Jonathan <span class="sname3"><strong>Feoderick</strong></span></p>
+                </div>      
                         <div class="txt3 ">
                             <h1>Hi. I'm <strong>Jojo</strong></h1>
                             <div class="para3">
@@ -78,9 +83,7 @@
                                     <p>Saya menyukai keberhasilan, menghargai kegagalan 
                                     <br>dan menikmati prosesnya.</p>
                             </div>
-                            <div class="name3">
-                                <p>Jonathan <span class="sname3"><strong>Feoderick</strong></span></p>
-                            </div>  
+                             
                         </div>
                             
                            
@@ -115,7 +118,9 @@
                                     <label for="message"></label><br>
                                     <textarea class ="inputform" pattern="[a-z0-9_-]{3,15}$" required placeholder="Write here"></textarea><br>
                                 </div>
-                                <button class="btsend" type="submit">SEND</button>
+                                <!-- <button class="btsend" type="submit" >SEND</button> -->
+                                <button class="btsend" onclick="showAlert()">SEND</button>
+                                <script src="script.js"></script>
                             </form>
                         </div>                                  
     </section>

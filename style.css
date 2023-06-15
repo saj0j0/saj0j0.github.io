@@ -90,24 +90,21 @@ ul li a:hover{
 }
 
 .quote{
-    position: relative;
-    color: #ffffff;
-    margin-left: 58%;
-    margin-top: 26%;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    color: #ffffff96;
     text-align: center;
 }
 
-.quote h1{
-    font-size: 40px;
-}
-
 .quote h2{
-    margin-top: -2%;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .quote a{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 700;
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s ease-in-out;
@@ -261,8 +258,8 @@ ul li a:hover{
     color: #ffffff;
     font-size: large;
     position: absolute;
-    margin-top: 1%;
-    left: -31.5%;
+    top: 285%;
+    left: 20%;
   }
 
 .sname3{
